@@ -494,7 +494,7 @@ def build_roadmap(templist):
                         set_stage(9)
                         if st.session_state.stage > 8:
                             st.markdown(
-                                "<h4 style='color: #d66d22;'>View available jobs related to your expertise</h4>",
+                                "<h4 style='color: #d66d22;'>View available jobs and internships related to your expertise</h4>",
                                 unsafe_allow_html=True,
                             )
                             job_keywords = st.text_input("Enter your job title")
