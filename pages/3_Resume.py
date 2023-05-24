@@ -65,7 +65,7 @@ def add_val(strList, mainList, s, e):
 def read_resume():
     #   st.markdown("<h4 style='color: White;'>Enter your details</h4>", unsafe_allow_html=True)
     uploaded_file = st.file_uploader(
-        "Upload Your Resume",
+        "Upload Your Resume to Find Jobs Relevant to Your Skillset.",
         type=["txt", "docx", "pdf"],
         on_change=set_stage,
         args=(1,),
